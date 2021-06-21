@@ -1,0 +1,212 @@
+/**
+{
+	padding: 0;
+}*/
+body
+{
+	margin: 0;
+	padding: 0;
+}
+a
+{
+	text-decoration: none;
+}
+
+header{
+  margin: 0px;
+  padding: 0px;
+  padding-left: 10px;
+}
+
+#main
+{
+	background: linear-gradient( to right,yellow ,blue);
+	border: 2px solid black;
+	color: blueviolet;
+}
+
+.clr
+{
+	clear: both;
+}
+.search
+{
+	border-radius: 8px;
+	width: 30%;
+	height: 25px;
+	position:absolute;
+	top: 30px;
+	right: 50px;
+}
+.nav1
+{
+	float: left;
+	padding-left: 17px ;
+}
+#navigation
+{
+	background-color: black;
+	color: white;
+	margin: 0;
+	height: 60px;
+	border: 1px black solid;
+	margin: 0;
+
+}
+#navigation ul
+{
+	padding: 0;
+	list-style: none;
+	color: white;
+}
+#navigation li 
+{
+	/*display: inline;
+	padding-left: 15px;*/
+	color: white;
+}
+#navigation a
+{
+	color: white;
+	text-decoration: none;
+}
+#navigation a:hover
+{
+	font-size: 18px;
+	color: lightgreen;
+}
+.lefttab
+{
+	float: left;
+	width: 35%;
+	border: 1px black solid;
+	margin-left: 10px;
+	margin-top: 10px;
+	/*list-style: none;*/
+}
+.lefttab:hover
+{
+	float: left;
+	width: 37%;
+	height: 210px;
+	border: 1px black solid;
+	margin-left: 7px;
+	margin-top: 7px;
+	/*list-style: none;*/
+}
+.lefttab ul
+{
+	list-style: none;
+}
+.lefttab h2
+{
+	background-color: red;
+	color: white;
+
+}
+.righttab
+{
+	float: right;
+	width: 57%;
+	border: 1px black solid;
+	margin-right: 10px;
+	margin-top: 10px;
+
+}
+.righttab:hover
+{
+	float: right;
+	width: 59%;
+	height: 230px;
+	border: 1px black solid;
+	margin-right: 7px;
+	margin-top: 7px;
+
+}
+.righttab h2
+{
+	background-color: red;
+	color: white;
+
+}
+.righttab h2:hover
+{
+	background-color: red;
+	color: green;
+
+}
+.lefttab h2:hover
+{
+	background-color: red;
+	color: green;
+
+}
+.lefttab a
+{
+	color: green;
+
+}
+.lefttab a:hover
+{
+	color: blueviolet;
+
+}
+.para1
+{
+	float: left;
+	border: 1px white solid;
+	width: 95%;
+	margin-top: 15px;
+	margin-left: 23px;
+	padding: 5px;
+	background-color: lightgray;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.para1:hover
+{
+	width: 97%;
+	margin-top: 13px;
+	margin-left: 15px;
+	padding: 5px;
+	background-color: lightgray;
+	border-radius: 5px;
+	height: 160px;
+	margin-bottom: 13px;
+
+}
+.para1 h2:hover
+{
+	color: red;
+}
+.footer
+{
+	float: left;
+	position: absolute;
+	top: 800px;
+	border: 1px black solid;
+	background-color: black;
+	color: white;
+	width: 100%;
+
+}
+
+.middle1
+{
+	margin-left: 500px;
+}
+.righttab2
+{
+	margin-left: 950px;
+}
+@media(max-width:600px){
+	.lefttab{
+		width:100%;
+		float:none;
+	}
+
+	.righttab{
+		width:100%;
+		float:none;
+	}
+}
